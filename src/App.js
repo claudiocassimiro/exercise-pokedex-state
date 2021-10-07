@@ -1,13 +1,13 @@
 import React from 'react';
-import './App.css';
+import Pokedex from './components/Pokedex';
 import pokemons from './data';
-import Pokedex from './Pokedex';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1> Pokedex </h1>
-      <Pokedex pokemons={pokemons} />
+      <h1>Pokedex</h1>
+      <Pokedex poke={pokemons}/>
     </div>
   );
 }
